@@ -2,13 +2,13 @@ import React from 'react'
 
 import './styles/index.sass'
 
-import Icon from './components/Icon'
+import Icons from './components/Icons'
 
 
 const App: React.FC = () => {
   return (
     <div className='App'>
-      <Icon />
+      <Icons />
     </div>
   )
 }
