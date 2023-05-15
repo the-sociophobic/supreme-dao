@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/supreme-dao/static/css/main.5200026f.css",
+    "main.js": "/supreme-dao/static/js/main.8f713cbb.js",
+    "static/media/Lines.svg": "/supreme-dao/static/media/Lines.969629c3c429fa4a0aa637513a6abaf7.svg",
+    "static/media/Tails.svg": "/supreme-dao/static/media/Tails.88293640fb943f793b8dbede213cdfe4.svg",
+    "static/media/Curve.svg": "/supreme-dao/static/media/Curve.53b17f1104b2899cda3dde1adf981d8d.svg",
+    "index.html": "/supreme-dao/index.html",
+    "static/media/Sphere.svg": "/supreme-dao/static/media/Sphere.929491952e1744f1d7ec26886a6d3fdb.svg",
+    "static/media/Aim.svg": "/supreme-dao/static/media/Aim.1326e2dc5e72bac44b61821d13c95507.svg",
+    "static/media/Line.svg": "/supreme-dao/static/media/Line.056a375e73b41462556d9cbdc3b84f7e.svg",
+    "main.5200026f.css.map": "/supreme-dao/static/css/main.5200026f.css.map",
+    "main.8f713cbb.js.map": "/supreme-dao/static/js/main.8f713cbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5200026f.css",
+    "static/js/main.8f713cbb.js"
+  ]
+}
