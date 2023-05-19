@@ -1,5 +1,12 @@
 @import '~bootstrap/scss/bootstrap.scss'
 
+.abs-child
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  position: absolute
+
 body
   background-color: #1A1D23
 
@@ -114,3 +121,64 @@ body
 #icon3
   width: 255px
   height: 255px
+
+#graph
+  width: 100vw
+  height: 100vh
+  position: relative
+
+.Cover
+  @extend .abs-child
+  &__line
+    position: absolute
+    bottom: 0
+    width: 1px
+    background-color: #616161
+    animation: graph_line 1s ease-in-out
+    animation-fill-mode: both
+    @keyframes graph_line
+      0%
+        height: 0%
+      100%
+        height: 100%
+    &:nth-of-type(1)
+      animation-delay: 2s
+      left: 25%
+    &:nth-of-type(2)
+      animation-delay: 3s
+      left: 50%
+    &:nth-of-type(3)
+      animation-delay: 4s
+      left: 75%
+  &__graph
+    @extend .abs-child
+    width: 90%
+    left: 10%
+    mask-image: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 50.5%)
+    mask-repeat: no-repeat
+    mask-size: 200%
+    animation: graph_mask 7s linear
+    animation-fill-mode: both
+    animation-delay: .5s
+    @keyframes graph_mask
+      0%
+        mask-position: -100vw 0
+      100%
+        mask-position: 0vw 0
+  &__logo
+    width: 5vw
+    height: 5vw
+    position: absolute
+    left: 2%
+    &--ETH
+      top: 55%
+    &--KAI
+      top: 75%
+      animation-delay: .5s
+    animation: logo .5s ease-in-out
+    animation-fill-mode: both
+    @keyframes logo
+      0%
+        transform: scale(0%)
+      100%
+        transform: scale(100%)
