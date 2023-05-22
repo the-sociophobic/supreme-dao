@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/supreme-dao/static/css/main.5200026f.css",
-    "main.js": "/supreme-dao/static/js/main.8f713cbb.js",
+    "main.css": "/supreme-dao/static/css/main.0868f621.css",
+    "main.js": "/supreme-dao/static/js/main.b310f667.js",
+    "static/media/ETH_graph.svg": "/supreme-dao/static/media/ETH_graph.4b8f759265813b58ede685684cec61df.svg",
+    "static/media/KAI.svg": "/supreme-dao/static/media/KAI.4027457ff98269c902d9f95c1e4a7818.svg",
+    "static/media/KAI_graph.svg": "/supreme-dao/static/media/KAI_graph.0a3e8b526f98fa8895356531893f0e31.svg",
     "static/media/Lines.svg": "/supreme-dao/static/media/Lines.969629c3c429fa4a0aa637513a6abaf7.svg",
     "static/media/Tails.svg": "/supreme-dao/static/media/Tails.88293640fb943f793b8dbede213cdfe4.svg",
     "static/media/Curve.svg": "/supreme-dao/static/media/Curve.53b17f1104b2899cda3dde1adf981d8d.svg",
+    "static/media/ETH.svg": "/supreme-dao/static/media/ETH.2aaa31506cd4637d557465711d4564bc.svg",
     "index.html": "/supreme-dao/index.html",
     "static/media/Sphere.svg": "/supreme-dao/static/media/Sphere.929491952e1744f1d7ec26886a6d3fdb.svg",
     "static/media/Aim.svg": "/supreme-dao/static/media/Aim.1326e2dc5e72bac44b61821d13c95507.svg",
     "static/media/Line.svg": "/supreme-dao/static/media/Line.056a375e73b41462556d9cbdc3b84f7e.svg",
-    "main.5200026f.css.map": "/supreme-dao/static/css/main.5200026f.css.map",
-    "main.8f713cbb.js.map": "/supreme-dao/static/js/main.8f713cbb.js.map"
+    "main.0868f621.css.map": "/supreme-dao/static/css/main.0868f621.css.map",
+    "main.b310f667.js.map": "/supreme-dao/static/js/main.b310f667.js.map"
   },
   "entrypoints": [
-    "static/css/main.5200026f.css",
-    "static/js/main.8f713cbb.js"
+    "static/css/main.0868f621.css",
+    "static/js/main.b310f667.js"
   ]
 }
