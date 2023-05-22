@@ -15,11 +15,11 @@ const Cover: React.FC = () => {
       <div className='Cover__line' />
       <div className='Cover__line' />
       <img
-        src={ETH}
-        className='Cover__logo Cover__logo--ETH'
+        src={ETH_graph}
+        className='Cover__graph'
       />
       <img
-        src={ETH_graph}
+        src={KAI_graph}
         className='Cover__graph'
       />
       <img
@@ -27,8 +27,8 @@ const Cover: React.FC = () => {
         className='Cover__logo Cover__logo--KAI'
       />
       <img
-        src={KAI_graph}
-        className='Cover__graph'
+        src={ETH}
+        className='Cover__logo Cover__logo--ETH'
       />
     </div>
   </Inserter>
