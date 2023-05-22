@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/supreme-dao/static/css/main.0868f621.css",
-    "main.js": "/supreme-dao/static/js/main.b310f667.js",
+    "main.js": "/supreme-dao/static/js/main.6ebce61e.js",
     "static/media/ETH_graph.svg": "/supreme-dao/static/media/ETH_graph.4b8f759265813b58ede685684cec61df.svg",
     "static/media/KAI.svg": "/supreme-dao/static/media/KAI.4027457ff98269c902d9f95c1e4a7818.svg",
     "static/media/KAI_graph.svg": "/supreme-dao/static/media/KAI_graph.0a3e8b526f98fa8895356531893f0e31.svg",
@@ -14,10 +14,10 @@
     "static/media/Aim.svg": "/supreme-dao/static/media/Aim.1326e2dc5e72bac44b61821d13c95507.svg",
     "static/media/Line.svg": "/supreme-dao/static/media/Line.056a375e73b41462556d9cbdc3b84f7e.svg",
     "main.0868f621.css.map": "/supreme-dao/static/css/main.0868f621.css.map",
-    "main.b310f667.js.map": "/supreme-dao/static/js/main.b310f667.js.map"
+    "main.6ebce61e.js.map": "/supreme-dao/static/js/main.6ebce61e.js.map"
   },
   "entrypoints": [
     "static/css/main.0868f621.css",
-    "static/js/main.b310f667.js"
+    "static/js/main.6ebce61e.js"
   ]
 }
