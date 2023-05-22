@@ -1,5 +1,6 @@
 import React from 'react'
-import { createPortal } from 'react-dom'
+
+import Inserter from '../Inserter'
 
 import aim from './1/Aim.svg'
 import sphere from './1/Sphere.svg'
@@ -9,6 +10,7 @@ import tails from './2/Tails.svg'
 
 import curve from './3/Curve.svg'
 import lines from './3/Lines.svg'
+
 
 const Icons: React.FC = () => {
   const Icon1 = () =>
@@ -55,21 +57,17 @@ const Icons: React.FC = () => {
       />
     </div>
 
-  const [icon1_div, set_icon1_div] = React.useState<any>(null)
-  const [icon2_div, set_icon2_div] = React.useState<any>(null)
-  const [icon3_div, set_icon3_div] = React.useState<any>(null)
-
-  React.useEffect(() => {
-    set_icon1_div(document.getElementById('icon1'))
-    set_icon2_div(document.getElementById('icon2'))
-    set_icon3_div(document.getElementById('icon3'))
-  }, [set_icon1_div, set_icon2_div, set_icon3_div])
-
   return (
     <>
-      {icon1_div && createPortal(<Icon1 />, icon1_div)}
-      {icon2_div && createPortal(<Icon2 />, icon2_div)}
-      {icon3_div && createPortal(<Icon3 />, icon3_div)}
+      <Inserter div_id='icon1'>
+        <Icon1 />
+      </Inserter>
+      <Inserter div_id='icon2'>
+        <Icon2 />
+      </Inserter>
+      <Inserter div_id='icon3'>
+        <Icon3 />
+      </Inserter>
     </>
   )
 }
