@@ -9,8 +9,8 @@ import Cover from './components/Cover'
 const App: React.FC = () => {
   return (
     <div className='App'>
-      <Icons />
       <Cover />
+      <Icons />
     </div>
   )
 }
